@@ -1,5 +1,5 @@
 from django.db import models
-#hola
+#hola, hola
 
 class Question(models.Model):
     question_text = models.CharField(max_length=200)
